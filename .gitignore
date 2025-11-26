@@ -1,0 +1,67 @@
+# ----------------------
+# Python cache & compiled files
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py.class
+
+# ----------------------
+# Virtual environment
+# ----------------------
+venv/
+env/
+.venv/
+.env/
+
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+.env.*
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+logs/
+*.sqlite3
+
+# ----------------------
+# IDE / Editor files
+# ----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ----------------------
+# OS-specific files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Test / coverage
+# ----------------------
+.coverage
+htmlcov/
+*.cover
+*.coverage.*
+.cache
+pytest_cache/
+.pytest_cache/
+
+# ----------------------
+# Docker / deployment
+# ----------------------
+docker-compose.override.yml
+*.env.dev
+*.env.test
+
+# ----------------------
+# Misc
+# ----------------------
+*.bak
+*.swp
